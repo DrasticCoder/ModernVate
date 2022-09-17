@@ -91,10 +91,15 @@ export default function Nav() {
                     <div className="flex justify-start lg:w-0 lg:flex-1">
                         <a href="#">
                             <span className="sr-only">ModernVate</span>
-                            <img
+                            {/* <img
                                 className="h-8 w-auto sm:h-10"
                                 src={Logo}
-                                alt=""/>
+                            alt="ModernVate"/> */}
+                            <span className=" lg:text-left font-bold text-blue-600">M</span>
+                            <span className=" lg:text-left font-bold">odern</span>
+                            <span className=" lg:text-left font-bold text-blue-600">V</span>
+                            <span className=" lg:text-left font-bold">ate</span>
+
                         </a>
                     </div>
                     <div className="-my-2 -mr-2 md:hidden">
