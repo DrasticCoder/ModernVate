@@ -1,12 +1,5 @@
 import HeroImg from '../inventory/homepage.png';
 
-const navigation = [
-    { name: 'Product', href: '#' },
-    { name: 'Features', href: '#' },
-    { name: 'Marketplace', href: '#' },
-    { name: 'Company', href: '#' },
-]
-
 export default function HeroSection() {
     return (
         <div className="relative overflow-hidden bg-white">
@@ -37,7 +30,7 @@ export default function HeroSection() {
                             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                                 <div className="rounded-md shadow">
                                     <a
-                                        href="#"
+                                        href="https://modernsolnhub.com/"
                                         className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
                                     >
                                         Get started
@@ -45,7 +38,7 @@ export default function HeroSection() {
                                 </div>
                                 <div className="mt-3 sm:mt-0 sm:ml-3">
                                     <a
-                                        href="#"
+                                        href="https://modernsolnhub.com/"
                                         className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-200 md:py-4 md:px-10 md:text-lg"
                                     >
                                         Know more

@@ -22,61 +22,61 @@ const Services = [
     {
         name: 'Analytics',
         description: 'Get a better understanding of where your traffic is coming from.',
-        href: '#',
+        href: 'https://modernsolnhub.com/',
         icon: ChartBarIcon,
     },
     {
         name: 'Engagement',
         description: 'Connect directly to your customers in a more meaningful way.',
-        href: '#',
+        href: 'https://modernsolnhub.com/',
         icon: CursorArrowRaysIcon,
     },
-    { name: 'Security', description: "Your customers' data will be safe and secure.", href: '#', icon: ShieldCheckIcon },
+    { name: 'Security', description: "Your customers' data will be safe and secure.", href: 'https://modernsolnhub.com/', icon: ShieldCheckIcon },
     {
         name: 'Integrations',
         description: "Connect with third-party tools that you're already using.",
-        href: '#',
+        href: 'https://modernsolnhub.com/',
         icon: Squares2X2Icon,
     },
     {
         name: 'Automations',
         description: 'Build strategic funnels that will drive your customers to convert',
-        href: '#',
+        href: 'https://modernsolnhub.com/',
         icon: ArrowPathIcon,
     },
 ]
 
 const callsToAction = [
-    { name: 'Watch Demo', href: '#', icon: PlayIcon },
-    { name: 'Contact Sales', href: '#', icon: PhoneIcon },
+    { name: 'Watch Demo', href: 'https://modernsolnhub.com/', icon: PlayIcon },
+    { name: 'Contact Sales', href: 'https://modernsolnhub.com/', icon: PhoneIcon },
 ]
 
 const resources = [
     {
         name: 'Help Center',
         description: 'Get all of your questions answered in our forums or contact support.',
-        href: '#',
+        href: 'https://modernsolnhub.com/',
         icon: LifebuoyIcon,
     },
     {
         name: 'Guides',
         description: 'Learn how to maximize our platform to get the most out of it.',
-        href: '#',
+        href: 'https://modernsolnhub.com/',
         icon: BookmarkSquareIcon,
     },
     {
         name: 'Events',
         description: 'See what meet-ups and other events we might be planning near you.',
-        href: '#',
+        href: 'https://modernsolnhub.com/',
         icon: CalendarIcon,
     },
-    { name: 'Security', description: 'Understand how we take your privacy seriously.', href: '#', icon: ShieldCheckIcon },
+    { name: 'Security', description: 'Understand how we take your privacy seriously.', href: 'https://modernsolnhub.com/', icon: ShieldCheckIcon },
 ]
 
 const recentPosts = [
-    { id: 1, name: 'Boost your conversion rate', href: '#' },
-    { id: 2, name: 'How to use search engine optimization to drive traffic to your site', href: '#' },
-    { id: 3, name: 'Improve your customer experience', href: '#' },
+    { id: 1, name: 'Boost your conversion rate', href: 'https://modernsolnhub.com/' },
+    { id: 2, name: 'How to use search engine optimization to drive traffic to your site', href: 'https://modernsolnhub.com/' },
+    { id: 3, name: 'Improve your customer experience', href: 'https://modernsolnhub.com/' },
 ]
 
 function classNames(...classes) {
@@ -89,7 +89,7 @@ export default function Nav() {
             <div className="mx-auto max-w-7xl px-4 sm:px-6">
                 <div className="flex items-center justify-between border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
                     <div className="flex justify-start lg:w-0 lg:flex-1">
-                        <a href="#">
+                        <a href="https://modernsolnhub.com/">
                             <span className="sr-only">ModernVate</span>
                             {/* <img
                                 className="h-8 w-auto sm:h-10"
@@ -110,7 +110,7 @@ export default function Nav() {
                     </div>
                     <Popover.Group as="nav" className="hidden space-x-10 md:flex">
 
-                        <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+                        <a href="https://modernsolnhub.com/" className="text-base font-medium text-gray-500 hover:text-gray-900">
                             Home
                         </a>
 
@@ -174,7 +174,7 @@ export default function Nav() {
                             )}
                         </Popover>
 
-                        <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+                        <a href="https://modernsolnhub.com/" className="text-base font-medium text-gray-500 hover:text-gray-900">
                             About
                         </a>
 
@@ -234,7 +234,7 @@ export default function Nav() {
                                                         </ul>
                                                     </div>
                                                     <div className="mt-5 text-sm">
-                                                        <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                                                        <a href="https://modernsolnhub.com/" className="font-medium text-indigo-600 hover:text-indigo-500">
                                                             View all posts
                                                             <span aria-hidden="true"> &rarr;</span>
                                                         </a>
@@ -248,11 +248,11 @@ export default function Nav() {
                         </Popover>
                     </Popover.Group>
                     <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
-                        <a href="#" className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-indigo-900">
+                        <a href="https://modernsolnhub.com/" className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-indigo-900">
                             Login in
                         </a>
                         <a
-                            href="#"
+                            href="https://modernsolnhub.com/"
                             className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700" >
                             Register
                         </a>
@@ -304,11 +304,11 @@ export default function Nav() {
                         </div>
                         <div className="space-y-6 py-6 px-5">
                             <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-                                <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                                <a href="https://modernsolnhub.com/" className="text-base font-medium text-gray-900 hover:text-gray-700">
                                     Pricing
                                 </a>
 
-                                <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                                <a href="https://modernsolnhub.com/" className="text-base font-medium text-gray-900 hover:text-gray-700">
                                     About
                                 </a>
                                 {resources.map((item) => (
@@ -322,13 +322,13 @@ export default function Nav() {
                             </div>
                             <div>
                                 <a
-                                    href="#"
+                                    href="https://modernsolnhub.com/"
                                     className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700">
                                     Sign up
                                 </a>
                                 <p className="mt-6 text-center text-base font-medium text-gray-500">
                                     Existing customer?{' '}
-                                    <a href="#" className="text-indigo-600 hover:text-indigo-500">
+                                    <a href="https://modernsolnhub.com/" className="text-indigo-600 hover:text-indigo-500">
                                         Sign in
                                     </a>
                                 </p>
