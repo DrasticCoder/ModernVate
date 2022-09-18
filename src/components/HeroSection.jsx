@@ -4,7 +4,7 @@ export default function HeroSection() {
     return (
         <div className="md:relative overflow-hidden bg-white">
             <div className="mx-auto max-w-7xl">
-                <div className="md:relative z-2 pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-2xl lg:pb-28 xl:pb-32">
+                <div className="mb-20 md:relative z-2 pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-2xl lg:pb-28 xl:pb-32">
                     <svg
                         className="absolute inset-y-0 right-0 hidden h-full w-48 translate-x-1/2 transform text-white lg:block"
                         fill="currentColor"

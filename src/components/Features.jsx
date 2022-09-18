@@ -4,25 +4,25 @@ const features = [
     {
         name: 'Connect with experts all over the world',
         description:
-            'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+            'We provide newbies to connect with experts all over the world. Now connecting with the experts will be just one click away.',
         icon: GlobeAltIcon,
     },
     {
         name: 'Funding for your next big idea',
         description:
-            'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+            'You share your idea, if your idea attracts any organization they can help you by providing funds or guidance.',
         icon: ScaleIcon,
     },
     {
         name: 'Get your business off the ground',
         description:
-            'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+            'We promise to give a kickstart to your business by providing guidance from the experts.',
         icon: BoltIcon,
     },
     {
         name: 'Connect with other entrepreneurs',
         description:
-            'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+            'You can also connect with other entrepreneurs for the purpose of gaining experience, guidance, etc.',
         icon: ChatBubbleBottomCenterTextIcon,
     },
 ]
@@ -36,8 +36,7 @@ export default function Features() {
                         Features
                     </p>
                     <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-                        Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
-                        accusamus quisquam.
+                        We provide following features
                     </p>
                 </div>
 
