@@ -19,7 +19,7 @@ export default function HeroSection() {
                         <div className="sm:text-center lg:text-left">
                             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
                                 <span className="block xl:inline">We</span>{' '}
-                                <span className="block text-indigo-600 xl:inline">Incubate</span>,{' '}
+                                <span className="block text-indigo-600 xl:inline">Incubate,</span>{' '}
                                 <span className="block text-gray-400 xl:inline">Nourish</span>{' '}
                                 <span className="block xl:inline">and Growth</span>{' '}
                                 <span className="block text-orange-400 xl:inline">Ideas</span>
