@@ -21,7 +21,7 @@ export default function HeroSection() {
                                 <span className="block xl:inline">We</span>{' '}
                                 <span className="block text-indigo-600 xl:inline">Incubate,</span>{' '}
                                 <span className="block text-gray-400 xl:inline">Nourish</span>{' '}
-                                <span className="block xl:inline">and Growth</span>{' '}
+                                <span className="block xl:inline">and Grow</span>{' '}
                                 <span className="block text-orange-400 xl:inline">Ideas</span>
                             </h1>
                             <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
