@@ -91,10 +91,7 @@ export default function Nav() {
                     <div className="flex justify-start lg:w-0 lg:flex-1">
                         <a href="https://modernsolnhub.com/">
                             <span className="sr-only">ModernVate</span>
-                            {/* <img
-                                className="h-8 w-auto sm:h-10"
-                                src={Logo}
-                            alt="ModernVate"/> */}
+                            {/* <img className="h-8 w-auto sm:h-10" src={Logo} alt="ModernVate"/> */}
                             <span className=" lg:text-left font-bold text-blue-600">M</span>
                             <span className=" lg:text-left font-bold">odern</span>
                             <span className=" lg:text-left font-bold text-blue-600">V</span>
