@@ -11,8 +11,8 @@ function App() {
       <Nav />
       <HeroSection />
       <Info />
-      <UserInfo />
       <Features />
+      <UserInfo />
     </div>
   );
 }
