@@ -5,6 +5,7 @@ import Info from './components/Info';
 import UserInfo from './components/UserInfo';
 import Features from './components/Features';
 import Newsletter from './components/Newsletter';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Features />
       <UserInfo />
       <Newsletter />
+      <Footer />
     </div>
   );
 }
