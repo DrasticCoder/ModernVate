@@ -1,5 +1,5 @@
 import React from 'react';
-import InfoImg from '../inventory/Info.png';
+import InfoImg from '../assets/Info.png';
 
 function Info() {
   return (

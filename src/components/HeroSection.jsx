@@ -1,28 +1,20 @@
-import HeroImg from '../inventory/homepage.png';
+import HeroImg from '../assets/heroImg.png';
+import bgImg from '../assets/hsBg.png';
 
 export default function HeroSection() {
     return (
-        <div className="md:relative overflow-hidden bg-white">
+        <div className="bg-cover h-screen md:relative overflow-hidden" style={{ backgroundImage: `url(${bgImg})` }}>
             <div className="mx-auto max-w-7xl">
                 <div className="mb-20 md:relative z-2 pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-2xl lg:pb-28 xl:pb-32">
-                    <svg
-                        className="absolute inset-y-0 right-0 hidden h-full w-48 translate-x-1/2 transform text-white lg:block"
-                        fill="currentColor"
-                        viewBox="0 0 100 100"
-                        preserveAspectRatio="none"
-                        aria-hidden="true"
-                    >
-                        <polygon points="50,0 100,0 50,100 0,100" />
-                    </svg>
 
                     <main className="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                         <div className="sm:text-center lg:text-left">
                             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
                                 <span className="block xl:inline">We</span>{' '}
                                 <span className="block text-indigo-600 xl:inline">Incubate,</span>{' '}
-                                <span className="block text-gray-400 xl:inline">Nourish</span>{' '}
+                                <span className="block text-redish xl:inline">Nourish</span>{' '}
                                 <span className="block xl:inline">and Grow</span>{' '}
-                                <span className="block text-orange-400 xl:inline">Ideas</span>
+                                <span className="block text-orange xl:inline">Ideas</span>
                             </h1>
                             <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
                                 World's largest digital incubation plateform. We help startups in acceleration and business growth.
